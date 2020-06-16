@@ -36,11 +36,11 @@ export default function TeamForm(props) {
                 </label>
 
                 <label>
-                    <select>
+                    <select                         
                         name='role'
                         value={values.role}
                         onInputChange={onInputChange}
-
+                    >
                         <option value=''>-- Select a Role --</option>
                         <option value='Front End Developer'>Front End Developer</option>
                         <option value='Backend Engineer'>Backend Engineer</option>
