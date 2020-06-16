@@ -10,7 +10,7 @@ const initialTeamData = [
     id: uuid(),
     name: 'Khalil Foulks',
     email: 'khalilfoulks@khalil.com',
-    role: 'Student',
+    role: 'Front End Developer',
   },
 ]
 
@@ -42,8 +42,8 @@ function App() {
         values = {formValues}
         onInputChange = {onInputChange}
         onSubmit = {onSubmit}
-      
       />
+
     </div>
   );
 }
